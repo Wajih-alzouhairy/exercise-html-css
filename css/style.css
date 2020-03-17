@@ -1,5 +1,150 @@
-header {
-  width: 100%;
-  height: 50px;
-  border: solid black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/img/bac.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  /* background-image: url(/img/bac.jpg); */
+
+  /* background-color: cadetblue; */
+}
+.header {
+  width: 100vw;
+  height: 6vh;
+  /* border: dashed black; */
+  /* background-color: chartreuse; */
+}
+.smallbox1 {
+  width: 5vw;
+  height: 7vh;
+  /* border: dashed black; */
+  color: white;
+  position: fixed;
+  left: 54rem;
+  top: 1rem;
+}
+.smallbox2 {
+  width: 5vw;
+  height: 7vh;
+  /* border: dashed black; */
+  color: white;
+  position: fixed;
+  left: 60rem;
+  top: 1rem;
+}
+.smallbox3 {
+  width: 5vw;
+  height: 7vh;
+  /* border: dashed black; */
+  color: white;
+  position: fixed;
+  left: 65rem;
+  top: 1rem;
+}
+.smallbox4 {
+  width: 5vw;
+  height: 7vh;
+  /* border: dashed black; */
+  color: white;
+  position: fixed;
+  left: 70rem;
+  top: 1rem;
+}
+.smallbox5 {
+  width: 5vw;
+  height: 7vh;
+  /* border: dashed black; */
+  color: white;
+  position: fixed;
+  left: 75rem;
+  top: 1rem;
+}
+.smallbox6 {
+  width: 5vw;
+  height: 7vh;
+  /* border: dashed black; */
+  color: white;
+  position: fixed;
+  left: 80rem;
+  top: 1rem;
+}
+.logo {
+  width: 20vw;
+  height: 10vh;
+  /* border: dashed black; */
+  background-image: url(/img/logo_001.png);
+  background-size: cover;
+  color: white;
+  position: fixed;
+  left: 13rem;
+  top: 3rem;
+  text-align: center;
+}
+
+.box1 {
+  width: 20vw;
+  height: 70vh;
+  /* border: dashed black; */
+  background-image: url(/img/phone_002.png);
+  background-size: cover;
+
+  position: fixed;
+  left: 55rem;
+  top: 10rem;
+}
+.box2 {
+  width: 20vw;
+  height: 70vh;
+  /* border: dashed black; */
+  background-image: url(/img/phone_001.png);
+  background-size: cover;
+  position: fixed;
+  left: 65rem;
+  top: 10rem;
+}
+.box3 {
+  width: 50vw;
+  height: 50vh;
+  /* border: dashed black; */
+  text-align: center;
+  position: fixed;
+  left: 5rem;
+  top: 15rem;
+}
+.minibox1 {
+  width: 10vw;
+
+  /* border: dashed black; */
+  position: fixed;
+  left: 35rem;
+  bottom: 10rem;
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+.minibox2 {
+  width: 10vw;
+
+  /* border: dashed black; */
+  position: fixed;
+  left: 20rem;
+  bottom: 10rem;
+  background-color: green;
+
+  text-align: center;
+
+  color: white;
+}
+.lorem {
+  margin-top: 25px;
+  text-align: center;
 }
