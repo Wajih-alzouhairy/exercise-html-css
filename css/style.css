@@ -8,93 +8,38 @@ body {
   background-size: cover;
 }
 
-.container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-
-  /* background-image: url(/img/bac.jpg); */
-
-  /* background-color: cadetblue; */
-}
 .header {
   width: 100vw;
-  height: 6vh;
-  /* border: dashed black; */
-  /* background-color: chartreuse; */
+  height: 100vh;
+
+  /* background-image: url(/img/bac.jpg); */
 }
-.smallbox1 {
-  width: 5vw;
-  height: 7vh;
-  /* border: dashed black; */
-  color: white;
-  position: fixed;
-  left: 54rem;
-  top: 1rem;
+
+.Navbar {
+  width: 100%;
+  height: 200px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
 }
-.smallbox2 {
-  width: 5vw;
-  height: 7vh;
-  /* border: dashed black; */
+.NavbarItems {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
   color: white;
-  position: fixed;
-  left: 60rem;
-  top: 1rem;
 }
-.smallbox3 {
-  width: 5vw;
-  height: 7vh;
-  /* border: dashed black; */
-  color: white;
-  position: fixed;
-  left: 65rem;
-  top: 1rem;
-}
-.smallbox4 {
-  width: 5vw;
-  height: 7vh;
-  /* border: dashed black; */
-  color: white;
-  position: fixed;
-  left: 70rem;
-  top: 1rem;
-}
-.smallbox5 {
-  width: 5vw;
-  height: 7vh;
-  /* border: dashed black; */
-  color: white;
-  position: fixed;
-  left: 75rem;
-  top: 1rem;
-}
-.smallbox6 {
-  width: 5vw;
-  height: 7vh;
-  /* border: dashed black; */
-  color: white;
-  position: fixed;
-  left: 80rem;
-  top: 1rem;
-}
-.logo {
-  width: 20vw;
-  height: 10vh;
-  /* border: dashed black; */
-  background-image: url(/img/logo_001.png);
-  background-size: cover;
-  color: white;
-  position: fixed;
-  left: 13rem;
-  top: 3rem;
-  text-align: center;
+
+.container {
+  width: 70vw;
+  margin: auto;
 }
 
 .box1 {
   width: 20vw;
   height: 70vh;
   /* border: dashed black; */
-  background-image: url(/img/phone_002.png);
+  /* background-image: url(/img/phone_002.png); */
   background-size: cover;
 
   position: fixed;
@@ -105,7 +50,7 @@ body {
   width: 20vw;
   height: 70vh;
   /* border: dashed black; */
-  background-image: url(/img/phone_001.png);
+  /* background-image: url(/img/phone_001.png); */
   background-size: cover;
   position: fixed;
   left: 65rem;
