@@ -6,6 +6,7 @@
 body {
   background-image: url(../img/bac.jpg);
   background-size: cover;
+  /* display: flex; */
 }
 
 .header {
@@ -92,4 +93,33 @@ body {
 .lorem {
   margin-top: 25px;
   text-align: center;
+}
+/* .bac {
+  width: 25px;
+  height: 5;
+  background-color: cadetblue;
+} */
+
+.line-hamburger:after,
+.line-hamburger:before,
+.line-hamburger div {
+  margin: 7px;
+  width: 30px;
+  background-color: white;
+  content: "";
+  display: flex;
+  border-radius: 20%;
+  height: 5px;
+  transition: 0.5s;
+}
+.line-hamburger:hover:before {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.line-hamburger:hover:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+
+.line-hamburger:hover div {
+  transform: scale(0);
 }
