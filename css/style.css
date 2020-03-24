@@ -34,6 +34,7 @@ body {
 .container {
   width: 70vw;
   margin: auto;
+  display: flex;
 }
 
 .box1 {
@@ -91,7 +92,13 @@ body {
   color: white;
 }
 .lorem {
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  /* border: dashed black; */
   margin-top: 25px;
+  margin-left: 12rem;
   text-align: center;
 }
 /* .bac {
